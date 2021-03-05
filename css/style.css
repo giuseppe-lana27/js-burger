@@ -28,18 +28,54 @@ header{
   border: none;
   padding: 10px 0;
   font-size: 18px;
+  background-color: #fff5e2;
 }
 #burger-name:focus{
   outline: none;
 }
 .ingredients{
   margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section-title{
+  display: block;
+}
+.left,
+.right{
+  display: flex;
+  margin: 20px 15px;
 }
 .ingredients-list{
+  margin-top: 20px;
   list-style: none;
+}
+.ingredients-list li{
+  padding: 10px 0;
+  font-size: 18px;
+}
+.ingredient-img{
+  height: 80px;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.add-ingredient{
+  vertical-align: middle;
 }
 .discount{
   margin-top: 30px;
+}
+#coupon{
+  background-color: #fff5e2;
+  border: none;
+  width: 60%;
+  margin-left: 15px;
+  padding: 10px;
+}
+#coupon:focus{
+  outline: none;
 }
 .calculate-button{
   text-align: center;
