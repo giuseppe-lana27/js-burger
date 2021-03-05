@@ -1,11 +1,19 @@
+/* reset */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* mix */
 .wrapper{
   max-width: 800px;
   margin: auto;
+}
+.burger-name-block,
+.ingredients,
+.discount,
+.calculate-button{
+  margin-top: 30px;
 }
 /* header */
 header{
@@ -20,9 +28,6 @@ header{
   height: 200px;
 }
 /* main */
-.burger-name-block{
-  margin-top: 30px;
-}
 #burger-name{
   width: 40%;
   border: none;
@@ -34,10 +39,10 @@ header{
   outline: none;
 }
 .ingredients{
-  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 10px 0;
 }
 .section-title{
   display: block;
@@ -64,9 +69,6 @@ header{
 .add-ingredient{
   vertical-align: middle;
 }
-.discount{
-  margin-top: 30px;
-}
 #coupon{
   background-color: #fff5e2;
   border: none;
@@ -79,12 +81,22 @@ header{
 }
 .calculate-button{
   text-align: center;
-  margin-top: 30px;
+}
+#calculate{
+  padding: 10px 25px;
+  background-color: #fdbb40;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+#calculate:focus{
+  outline: none;
 }
 /* footer */
 footer{
   background-color: #d33359;
-  margin-top: 30px;
+  margin-top: 40px;
   padding: 20px 30px 30px 30px;
   font-weight: bold;
   font-size: 25px;
