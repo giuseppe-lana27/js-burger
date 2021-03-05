@@ -8,15 +8,78 @@
   <title>Create Your Burger</title>
 </head>
 <body>
-  <header>
-  </header>
-
-  <main>
-  </main>
-
-  <footer></footer>
-
-
+  <div class="wrapper">
+    <!-- intestazione pagina -->
+    <header>
+      <h1>Create Your Burger</h1>
+    </header>
+    <!-- /intestazione pagina -->
+    <!-- corpo della pagina -->
+    <main>
+      <!-- nome hamburger -->
+      <div class="burger-name">
+        <input type="text" id="burger-name" placeholder="Name your Burger">
+      </div>
+      <!-- /nome hamburger -->
+      <!-- lista ingredienti da aggiungere -->
+      <div class="ingredients">
+        <h2>Ingredients</h2>
+        <ul class="ingredients-list">
+          <li>
+            <label for="cheese"> Cheese
+              <input type="checkbox" id="cheese" value=""> add
+            </label>
+          </li>
+          <li>
+            <label for="egg"> Egg
+              <input type="checkbox" id="egg" value=""> add
+            </label>
+          </li>
+          <li>
+            <label for="mustard"> Mustard
+              <input type="checkbox" id="mustard" value=""> add
+            </label>
+          </li>
+          <li>
+            <label for="tomato"> Tomato
+              <input type="checkbox" id="tomato" value=""> add
+            </label>
+          </li>
+          <li>
+            <label for="lettuce"> Lettuce
+              <input type="checkbox" id="lettuce" value=""> add
+            </label>
+          </li>
+          <li>
+            <label for="ketchup"> Ketchup
+              <input type="checkbox" id="ketchup" value=""> add
+            </label>
+          </li>
+        </ul>
+      </div>
+      <!-- /lista ingredienti da aggiungere -->
+      <!-- blocco coupon -->
+      <div class="discount">
+        <label for="coupon"> Discount Coupon
+          <input type="text" id="coupon" placeholder="Insert Your Coupon">
+        </label>
+      </div>
+      <!-- /blocco coupon -->
+      <!-- bottone calcolo totale -->
+      <div class="calculate-button">
+        <button type="button" name="button" id="caluclate">Calculate</button>
+      </div>
+      <!-- /bottone calcolo totale -->
+    </main>
+    <!-- /corpo della pagina -->
+    <!-- footer -->
+    <footer>
+      <div>Your Price</div>
+      <div id="total"> 50€</div>
+    </footer>
+    <!-- /footer -->
+  </div>
+  <!-- script -->
   <script src="js/script.js" charset="utf-8"></script>
 </body>
 </html>

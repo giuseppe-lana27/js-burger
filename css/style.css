@@ -3,3 +3,39 @@
   padding: 0;
   box-sizing: border-box;
 }
+.wrapper{
+  max-width: 800px;
+  margin: auto;
+}
+/* header */
+header{
+  background-color: #fdbb40;
+  padding: 40px 20px 30px 20px;
+}
+/* main */
+.burger-name{
+  margin-top: 30px;
+}
+.ingredients{
+  margin-top: 30px;
+}
+.ingredients-list{
+  list-style: none;
+}
+.discount{
+  margin-top: 30px;
+}
+.calculate-button{
+  text-align: center;
+  margin-top: 30px;
+}
+/* footer */
+footer{
+  background-color: #d33359;
+  margin-top: 30px;
+  padding: 20px 30px 30px 30px;
+  font-weight: bold;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+}
