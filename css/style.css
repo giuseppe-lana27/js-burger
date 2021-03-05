@@ -10,7 +10,7 @@
   margin: auto;
 }
 .burger-name-block,
-.ingredients,
+.section-title,
 .discount,
 .calculate-button{
   margin-top: 30px;
@@ -42,12 +42,8 @@ header{
 .ingredients{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 20px 0;
-}
-.left,
-.right{
-  margin: 20px 15px;
 }
 .ingredients-list{
   margin-top: 20px;
@@ -56,13 +52,13 @@ header{
 .ingredients-list li{
   padding: 10px 0;
   font-size: 18px;
+  vertical-align: middle;
 }
 .ingredient-img{
   height: 80px;
   margin-right: 15px;
   vertical-align: middle;
 }
-
 .add-ingredient{
   vertical-align: middle;
 }
