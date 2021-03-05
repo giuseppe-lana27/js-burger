@@ -11,10 +11,26 @@
 header{
   background-color: #fdbb40;
   padding: 40px 20px 30px 20px;
+  position: relative;
+}
+.logo{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 200px;
 }
 /* main */
-.burger-name{
+.burger-name-block{
   margin-top: 30px;
+}
+#burger-name{
+  width: 40%;
+  border: none;
+  padding: 10px 0;
+  font-size: 18px;
+}
+#burger-name:focus{
+  outline: none;
 }
 .ingredients{
   margin-top: 30px;
