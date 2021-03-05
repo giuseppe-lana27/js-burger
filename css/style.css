@@ -20,6 +20,7 @@ header{
   background-color: #fdbb40;
   padding: 40px 20px 30px 20px;
   position: relative;
+  font-weight: bold;
 }
 .logo{
   position: absolute;
@@ -42,14 +43,10 @@ header{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 10px 0;
-}
-.section-title{
-  display: block;
+  padding: 20px 0;
 }
 .left,
 .right{
-  display: flex;
   margin: 20px 15px;
 }
 .ingredients-list{
@@ -68,6 +65,10 @@ header{
 
 .add-ingredient{
   vertical-align: middle;
+}
+.discount-label{
+  font-size: 18px;
+  font-weight: bold;
 }
 #coupon{
   background-color: #fff5e2;
