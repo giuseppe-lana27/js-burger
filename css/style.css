@@ -57,13 +57,20 @@ header{
   font-size: 18px;
   vertical-align: middle;
 }
+.ingredients-list li:not(:first-child){
+  margin-top: 15px;
+}
 .ingredient-img{
   height: 80px;
   margin-right: 15px;
   vertical-align: middle;
+  transition: 1s;
+}
+.ingredients-list li:hover .ingredient-img{
+  transform: scale(1.3);
 }
 .ingredient-label{
-  vertical-align: middle;
+  vertical-align: middle;  
 }
 .add-ingredient{
   margin: 0 10px;
@@ -114,6 +121,10 @@ header{
   border-radius: 10px;
   font-weight: bold;
   font-size: 18px;
+  transition: 1s;
+}
+#calculate:hover{
+  transform: scale(1.2);
 }
 #calculate:focus{
   outline: none;
