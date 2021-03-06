@@ -5,6 +5,9 @@
   box-sizing: border-box;
 }
 /* mix */
+body{
+  font-family: 'Roboto', sans-serif;
+}
 .wrapper{
   max-width: 800px;
   margin: auto;
@@ -59,8 +62,33 @@ header{
   margin-right: 15px;
   vertical-align: middle;
 }
-.add-ingredient{
+.ingredient-label{
   vertical-align: middle;
+}
+.add-ingredient{
+  margin: 0 10px;
+  position: relative;
+}
+.add-ingredient:after{
+  vertical-align: middle;
+  display:block;
+  height: 18px;
+  width: 18px;
+  background-color: #D33359;
+  border-radius: 2px;
+  content:"";
+}
+.add-ingredient:before{
+  font-family: 'Material Icons';
+  content:"\e876";
+  position: absolute;
+  font-size: 30px;
+  font-weight: 700;
+  top: -10px;
+  display: none;
+}
+.add-ingredient:checked:before{
+  display: block;
 }
 .discount-label{
   font-size: 18px;

@@ -11,7 +11,7 @@ calculate.addEventListener("click",
     // 2. inserimento nome panino
     if ( burgerName.value != "" ){
       // 3. controllo ingredienti inseriti e calcolo somma
-      var sum = 50;
+      var sum = 50;      
       for (var i = 0; i < ingredients.length; i++){
         if (ingredients[i].checked == true){
           sum += parseInt(ingredients[i].value);
